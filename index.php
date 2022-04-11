@@ -54,9 +54,14 @@ try {
         /*dbname=DB名*/
         /*ユーザー名*/
         /*パスワード*/
-        'mysql:dbname=boardsys;host=localhost;charset=utf8',
-        'root',
-        'shinei4005',
+//         'mysql:dbname=boardsys;host=localhost;charset=utf8',
+//         'root',
+//         'shinei4005',
+        
+        'mysql:dbname=bordersys;host=us-cdbr-east-05.cleardb.net;charset=utf8',
+        'b891c787c3a4c7',
+        'c6e85687',
+        
 
         // レコード列名をキーとして取得させる
         /*カラム名のみ取得*/
@@ -133,9 +138,14 @@ if (isset($_POST["btn_yearly"])) {
                 /*dbname=DB名*/
                 /*ユーザー名*/
                 /*パスワード*/
-                'mysql:dbname=boardsys;host=localhost;charset=utf8',
-                'root',
-                'shinei4005',
+//                 'mysql:dbname=boardsys;host=localhost;charset=utf8',
+//                 'root',
+//                 'shinei4005',
+                
+                'mysql:dbname=bordersys;host=us-cdbr-east-05.cleardb.net;charset=utf8',
+                'b891c787c3a4c7',
+                'c6e85687',
+                
 
                 // レコード列名をキーとして取得させる
                 /*カラム名のみ取得*/
@@ -188,9 +198,14 @@ if (isset($_POST["btn_news"])) {
                 /*dbname=DB名*/
                 /*ユーザー名*/
                 /*パスワード*/
-                'mysql:dbname=boardsys;host=localhost;charset=utf8',
-                'root',
-                'shinei4005',
+//                 'mysql:dbname=boardsys;host=localhost;charset=utf8',
+//                 'root',
+//                 'shinei4005',
+                
+                'mysql:dbname=bordersys;host=us-cdbr-east-05.cleardb.net;charset=utf8',
+                'b891c787c3a4c7',
+                'c6e85687',
+                
 
                 // レコード列名をキーとして取得させる
                 /*カラム名のみ取得*/
