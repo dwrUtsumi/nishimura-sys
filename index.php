@@ -58,7 +58,7 @@ try {
 //         'root',
 //         'shinei4005',
         
-        'mysql:dbname=boardsys;host=us-cdbr-east-05.cleardb.net;charset=utf8',
+        'mysql:dbname=heroku_4a02e2868c97e65;host=us-cdbr-east-05.cleardb.net;charset=utf8',
         'b891c787c3a4c7',
         'c6e85687',
         
@@ -142,9 +142,9 @@ if (isset($_POST["btn_yearly"])) {
 //                 'root',
 //                 'shinei4005',
                 
-                'mysql:dbname=boardsys;host=us-cdbr-east-05.cleardb.net;charset=utf8',
-                'b891c787c3a4c7',
-                'c6e85687',
+               'mysql:dbname=heroku_4a02e2868c97e65;host=us-cdbr-east-05.cleardb.net;charset=utf8',
+        'b891c787c3a4c7',
+        'c6e85687',
                 
 
                 // レコード列名をキーとして取得させる
@@ -202,9 +202,9 @@ if (isset($_POST["btn_news"])) {
 //                 'root',
 //                 'shinei4005',
                 
-                'mysql:dbname=boardsys;host=us-cdbr-east-05.cleardb.net;charset=utf8',
-                'b891c787c3a4c7',
-                'c6e85687',
+                'mysql:dbname=heroku_4a02e2868c97e65;host=us-cdbr-east-05.cleardb.net;charset=utf8',
+        'b891c787c3a4c7',
+        'c6e85687',
                 
 
                 // レコード列名をキーとして取得させる
