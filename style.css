@@ -8,7 +8,7 @@ body {
   line-height: 1.42857143;
   background-image: url(img/backboard.jpg);
   background-size: cover;
-  height: 1200px;
+  height: 1500px;
   position: relative;
 }
 
@@ -88,22 +88,9 @@ form {
   margin: 0 auto;
 }
 
-/* 年間目標と月間目標とお知らせの親div */
-.three_grop {
-  display: flex;
-  width: 100%;
-  height: auto;
-}
-
 /*ボタン*/
 .table_btn {
   height: 30px;
-}
-
-/* 年間目標と月間目標の親div */
-.two_grop {
-  width: 100%;
-  margin-right: 1%;
 }
 
 /*** 年間目標 ***/
@@ -150,20 +137,17 @@ form {
 
 /*** お知らせ ***/
 .news_table {
-  width: 60%;
+  width: 100%;
   height: auto;
-  margin: 0 auto 25px 0;
+  margin: 0 auto 25px;
 }
 
 /* テキスト */
 .news_table textarea {
   resize: none;
   width: 100%;
-  height: 100%;
+  height: 160px;
   font-size: 16pt;
-  position: absolute;
-  top: 0;
-  left: 0;
   display: block;
 }
 
@@ -171,7 +155,7 @@ form {
 .days_table {
   width: 100%;
   height: auto;
-  margin: 0 auto 25px 0;
+  margin: 0 auto 25px;
   text-align: center;
 }
 
@@ -252,6 +236,12 @@ form {
 .continue_days p {
   font-size: 34px;
   display: inline;
+}
+
+/*ボタン*/
+.btn_row {
+  text-align: center;
+  background: #fff;
 }
 
 .days_table tbody tr:nth-child(even) td input {
