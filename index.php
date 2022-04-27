@@ -618,6 +618,8 @@ if (isset($_POST["btn_news"])) {
         <img src="/img/nishimura_logo.png" alt="">
         <img src="/img/nishimura_name.png" alt="">
     </div>
+    
+    <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
 </body>
 
 </html>
